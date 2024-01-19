@@ -12,6 +12,7 @@ public class SpecifierReferenceViewer : ModuleRules
         PrivateDependencyModuleNames.AddRange(
             new[]
             {
+                "Core",
                 "CoreUObject"
             });
 
