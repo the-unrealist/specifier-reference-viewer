@@ -1,0 +1,2556 @@
+{
+    "specifiers": [
+        {
+            "specifierName": "NoExport",
+            "tag": "UCLASS, USTRUCT",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Intrinsic",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "ComponentWrapperClass",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Within",
+            "tag": "UCLASS",
+            "valueType": "SingleString"
+        },
+        {
+            "specifierName": "EditInlineNew",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NotEditInlineNew",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Placeable",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NotPlaceable",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "DefaultToInstanced",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "HideDropdown",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Hidden",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "DependsOn",
+            "tag": "UCLASS, UINTERFACE",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "MinimalAPI",
+            "tag": "UCLASS, UINTERFACE",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Const",
+            "tag": "UCLASS, UPARAM",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "PerObjectConfig",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "ConfigDoNotCheckDefaults",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Abstract",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Deprecated",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Transient",
+            "tag": "UPROPERTY, UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NonTransient",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Optional",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "CustomConstructor",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Config",
+            "tag": "UPROPERTY, UCLASS",
+            "valueType": "SingleString"
+        },
+        {
+            "specifierName": "DefaultConfig",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "GlobalUserConfig",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "ProjectUserConfig",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "EditorConfig",
+            "tag": "UCLASS",
+            "valueType": "SingleString"
+        },
+        {
+            "specifierName": "ShowCategories",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "HideCategories",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "ShowFunctions",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "HideFunctions",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "SparseClassDataTypes",
+            "tag": "UCLASS",
+            "valueType": "SingleString"
+        },
+        {
+            "specifierName": "ClassGroup",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "AutoExpandCategories",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "AutoCollapseCategories",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "PrioritizeCategories",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "DontAutoCollapseCategories",
+            "tag": "UCLASS",
+            "valueType": "NonEmptyStringList"
+        },
+        {
+            "specifierName": "CollapseCategories",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "DontCollapseCategories",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "AdvancedClassDisplay",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "ConversionRoot",
+            "tag": "UCLASS, UINTERFACE",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NeedsDeferredDependencyLoading",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "MatchedSerializers",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Interface",
+            "tag": "UCLASS",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "CustomFieldNotify",
+            "tag": "UCLASS",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "Meta",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "KeyValuePairList"
+        },
+        {
+            "specifierName": "DisplayName",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "specifierName": "FriendlyName",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "specifierName": "BlueprintInternalUseOnly",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "BlueprintInternalUseOnlyHierarchical",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "BlueprintType",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "NotBlueprintType",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "Blueprintable",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "CallInEditor",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "NotBlueprintable",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "Category",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "specifierName": "Experimental",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "EarlyAccessPreview",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "DocumentationPolicy",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "SparseClassDataType",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "specifierName": "Flags",
+            "tag": "UENUM",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintAuthorityOnly",
+            "tag": "UPROPERTY, UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintCallable",
+            "tag": "UPROPERTY, UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintCosmetic",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintGetter",
+            "tag": "UPROPERTY, UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintImplementableEvent",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintNativeEvent",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintPure",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "OptionalString"
+        },
+        {
+            "specifierName": "BlueprintSetter",
+            "tag": "UPROPERTY, UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Client",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "OptionalString"
+        },
+        {
+            "specifierName": "CustomThunk",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Exec",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NetMulticast",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Reliable",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "SealedEvent",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Server",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "OptionalString"
+        },
+        {
+            "specifierName": "ServiceRequest",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "OptionalEqualsKeyValuePairList"
+        },
+        {
+            "specifierName": "ServiceResponse",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "OptionalEqualsKeyValuePairList"
+        },
+        {
+            "specifierName": "Unreliable",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "WithValidation",
+            "tag": "UDELEGATE, UFUNCTION",
+            "valueType": "StringList"
+        },
+        {
+            "specifierName": "FieldNotify",
+            "tag": "UPROPERTY, UDELEGATE, UFUNCTION",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "Ref",
+            "tag": "UPARAM",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NotReplicated",
+            "tag": "UPROPERTY, UPARAM",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Required",
+            "tag": "UPARAM",
+            "valueType": "None"
+        },
+        {
+            "specifierName": "EditAnywhere",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "EditInstanceOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "EditDefaultsOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "VisibleAnywhere",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "VisibleInstanceOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "VisibleDefaultsOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintReadWrite",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintReadOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "GlobalConfig",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Localized",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "DuplicateTransient",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "TextExportTransient",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NonPIETransient",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NonPIEDuplicateTransient",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Export",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "EditInline",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NoClear",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "EditFixedSize",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Replicated",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "ReplicatedUsing",
+            "tag": "UPROPERTY",
+            "valueType": "SingleString"
+        },
+        {
+            "specifierName": "RepRetry",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Interp",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "NonTransactional",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Instanced",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "BlueprintAssignable",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "AssetRegistrySearchable",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "SimpleDisplay",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "AdvancedDisplay",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "SaveGame",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "SkipSerialization",
+            "tag": "UPROPERTY",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Getter",
+            "tag": "UPROPERTY",
+            "valueType": "OptionalString"
+        },
+        {
+            "specifierName": "Setter",
+            "tag": "UPROPERTY",
+            "valueType": "OptionalString"
+        },
+        {
+            "specifierName": "Atomic",
+            "tag": "USTRUCT",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "Immutable",
+            "tag": "USTRUCT",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "HasDefaults",
+            "tag": "USTRUCT",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "HasNoOpConstructor",
+            "tag": "USTRUCT",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "IsAlwaysAccessible",
+            "tag": "USTRUCT",
+            "valueType": "Legacy"
+        },
+        {
+            "specifierName": "IsCoreType",
+            "tag": "USTRUCT",
+            "valueType": "Legacy"
+        }
+    ],
+    "metadata": [
+        {
+            "metadataName": "IncludePath",
+            "tag": "UCLASS, UINTERFACE",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ModuleRelativePath",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ScriptName",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintThreadSafe",
+            "tag": "UCLASS, UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Category",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UINTERFACE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Keywords",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ToolTip",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UINTERFACE, UDELEGATE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NativeConst",
+            "tag": "UPARAM",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "CompactNodeTitle",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisplayName",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UMETA, UPARAM, UINTERFACE, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DeterminesOutputType",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DynamicOutputParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "WorldContext",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintInternalUseOnly",
+            "tag": "UCLASS, USTRUCT, UENUM, UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "BlueprintType",
+            "tag": "UCLASS, USTRUCT, UENUM, UINTERFACE, UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "CannotImplementInterfaceInBlueprint",
+            "tag": "UINTERFACE",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Name",
+            "tag": "UMETA, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisableSplitPin",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "HasNativeBreak",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HasNativeMake",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "EditInline",
+            "tag": "UPROPERTY, UPARAM",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "ConfigRestartRequired",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "AllowedClasses",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Hidden",
+            "tag": "USTRUCT, UMETA",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "MetaClass",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ObjectInitializerConstructorDeclared",
+            "tag": "UCLASS, UINTERFACE",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "NoResetToDefault",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "HideCategories",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "IsBlueprintBase",
+            "tag": "UCLASS, USTRUCT, UENUM, UINTERFACE",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ClampMin",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "EditCondition",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "InlineEditConditionToggle",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "MakeEditWidget",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "ScriptMethod",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DeprecatedProperty",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DeprecationMessage",
+            "tag": "UPROPERTY, UCLASS, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NoElementDuplicate",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "UseAsBlendProfile",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ClampMax",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintCompilerGeneratedDefaults",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DeprecatedFunction",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AnimGetter",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "GetterContext",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisplayAfter",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "LoadBehavior",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "FoldProperty",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "PinShownByDefault",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "NativeConstTemplateArg",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "NeverAsPin",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DevelopmentStatus",
+            "tag": "UPROPERTY, UCLASS, USTRUCT, UENUM, UINTERFACE",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Min",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "UIMin",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "PinHiddenByDefault",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DisallowedClasses",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ForceShowEngineContent",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "EditConditionHides",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "UseAsBlendMask",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "UIMax",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "AutoExpandCategories",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ChildCanTick",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ClassGroupNames",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "IgnoreCategoryKeywordsInSubclasses",
+            "tag": "UCLASS",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "IsConversionRoot",
+            "tag": "UCLASS",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "AllowPrivateAccess",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "ExposeFunctionCategories",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ArraySizeEnum",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DebugTreeLeaf",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ShowWorldContextPin",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AutoCreateRefTerm",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ExposeOnSpawn",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "ShowCategories",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintSpawnableComponent",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Units",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintSetter",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShowOnlyInnerProperties",
+            "tag": "UPROPERTY, USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "MustImplement",
+            "tag": "UPROPERTY, UPARAM",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintAutocast",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ExpandEnumAsExecs",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShortTooltip",
+            "tag": "UCLASS, USTRUCT, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "UnsafeDuringActorConstruction",
+            "tag": "UFUNCTION",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "DefaultToSelf",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HidePin",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "AdvancedDisplay",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisplayPriority",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ForceRebuildProperty",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "OnlyPlaceable",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ShowInnerProperties",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ShouldShowInViewport",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "SliderExponent",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HideAlphaChannel",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AllowPreserveRatio",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "EditFixedOrder",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "BlueprintGetter",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "SkipUCSModifiedProperties",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "bPersistentShowTrace",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "bTraceComplex",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "Bitmask",
+            "tag": "UPROPERTY, UENUM",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "BitmaskEnum",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Delta",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "LinearDeltaSensitivity",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "SequencerTrackClass",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "AttachType",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "bWeldSimulatedBodies",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "DevelopmentOnly",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "MultiLine",
+            "tag": "UPROPERTY, UPARAM",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "InlineCategoryProperty",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "LongPackageName",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "RelativeToGameContentDir",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "TitleProperty",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "AllowAbstract",
+            "tag": "UPROPERTY, UPARAM",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ExposedAsyncProxy",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ConsoleVariable",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisplayThumbnail",
+            "tag": "UPROPERTY, UCLASS",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "BlueprintBaseOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "TraceQuery",
+            "tag": "UMETA",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NoSpinbox",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "FullyExpand",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "NeedsLatentFixup",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "LatentCallbackTarget",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "KismetHideOverrides",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintProtected",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "NotBlueprintType",
+            "tag": "UCLASS",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "EnumCondition",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShowPostProcessCategories",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AssetBundles",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ColorGradingMode",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShiftMouseMovePixelPerDelta",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "SupportDynamicSliderMaxValue",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "SupportDynamicSliderMinValue",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "HiddenByDefault",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ForceUnits",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ArrayClamp",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Filter",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "AllowZoomOutput",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ShowInputGridNumbers",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ShowOutputGridNumbers",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ShowZoomButtons",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "TimelineLength",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ViewMaxInput",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ViewMaxOutput",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ViewMinInput",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ViewMinOutput",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "FixedIncrement",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HideEditConditionToggle",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "XAxisName",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "YAxisName",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HideSelfPin",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "InternalUseParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ScriptNoExport",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AttachLocationType",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ComponentClass",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "GetOptions",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "TextColor",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "LineColor",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RectColor",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "bCheckForCommandLineOverrides",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ReturnDisplayName",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ScriptConstant",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ScriptConstantHost",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ScriptOperator",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Bitflags",
+            "tag": "UENUM",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "UseEnumValuesAsMaskValuesInEditor",
+            "tag": "UENUM",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "TraceChannel",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "bAffectsLeftLarge",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "bAffectsLeftSmall",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "bAffectsRightLarge",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "bAffectsRightSmall",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "Duration",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Latent",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "LatentInfo",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "bAffectsHUD",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "bHidePlayer",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ExactClass",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "CustomThunk",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "MapKeyParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "MapParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "MapValueParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DataTablePin",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "CustomStructureParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "SetParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NativeBreakFunc",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ImpactNormal",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NativeMakeFunc",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Normal",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Enable",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "bTracePath",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "MaterialParameterCollectionFunction",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ArrayParm",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ArrayTypeDependentParams",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NotBlueprintThreadSafe",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Weight",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ScriptMethodMutable",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "CommutativeAssociativeBinaryOperator",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "Max",
+            "tag": "UPROPERTY, UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "IgnoreTypePromotion",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "CallableWithoutWorldContext",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "OverTime",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "bIgnoreSelf",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ShowAsInputPin",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RequiredInput",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "OverridingInputProperty",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "MaterialNewHLSLGenerator",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "MaterialControlFlow",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ValidEnumValues",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "IgnoreForMemberInitializationTest",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "TreatAsColor",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AutoCollapseCategories",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisableCopyPaste",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "CustomizeProperty",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AudioParam",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "AudioParamClass",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "FilePathFilter",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RelativePath",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Grouping",
+            "tag": "UMETA",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "CallInEditor",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "CanFlattenStruct",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DisplayValue",
+            "tag": "UMETA",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "FieldNotifyInterfaceParam",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "LevelInstanceFilter",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "LevelInstanceEditFilter",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "NoCreate",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ForceInlineRow",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "RestrictedToClasses",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ToolTips",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DeprecatedNode",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Deprecated",
+            "tag": "UPROPERTY, UCLASS, USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "KeyTimes",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "KeyValues",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "InlineColorPicker",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "HasDedicatedAsyncNode",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Transient",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Input",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "LandscapeInherited",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "LandscapeOverridable",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Subcategory",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ReapplyCondition",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HideBehind",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HideObjectType",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ThumbnailSize",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HideViewOptions",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ShowDisplayNames",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "CommandLineID",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "HideFunctions",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DontUseGenericSpawnObject",
+            "tag": "UCLASS",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "DisableNativeTick",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "sRGB",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "IsBindableEvent",
+            "tag": "UPROPERTY",
+            "valueType": "FlagOrBool"
+        },
+        {
+            "metadataName": "DesignerRebuild",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "EntryInterface",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RequiredAssetDataTags",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DeprecatedMessage",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DocumentationPolicy",
+            "tag": "UCLASS, USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "bAllowStretching",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "MaxStretchScale",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "StartStretchRatio",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "bUseUpVector",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "bRemapRange",
+            "tag": "UFUNCTION",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "RangeOutMaxX",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RangeOutMaxY",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RangeOutMaxZ",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RangeOutMinX",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RangeOutMinY",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "RangeOutMinZ",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NumberOfSamples",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "VelocityMax",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "VelocityMin",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DefaultValue",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DataflowInput",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DataflowOutput",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Iterations",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Magnitude",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "InteriorValue",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Period",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Wavelength",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "MaxRange",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "MinRange",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "SequencerBindingResolverLibrary",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "unit",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ScriptMethodSelfReturn",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "HideInDetailPanel",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "TransientToolProperty",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "UVSpace",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ScriptDefaultBreak",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ScriptDefaultMake",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Experimental",
+            "tag": "UCLASS, UENUM",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "NameOverride",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "HiddenNode",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AdvancedClassDisplay",
+            "tag": "UCLASS",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "EditorConfig",
+            "tag": "UPROPERTY, UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "PasswordField",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "SparseClassDataType",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ImportType",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ImportCategory",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "OBJRestrict",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ReimportRestrict",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "DispalyName",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "AllowFunctionLibraries",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DefaultBindingName",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "FunctionReference",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "PrototypeFunction",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ContentDir",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ObjectSetType",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ColumnWidth",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShowTotal",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "SortMode",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintSearchable",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "BlueprintSearchableFormatVersion",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BlueprintSearchableHiddenExplicit",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ShowTreeView",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ShowForTargetTypes",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShowForTools",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShowForLandscapeLayerSystem",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ShowForMask",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "MaxFractionalDigits",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShowForBrushes",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ToolTop",
+            "tag": "UMETA",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ProceduralShapeSetting",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Output",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Abstract",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "NodeColor",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Icon",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "TemplateName",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Aggregate",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Singleton",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Constant",
+            "tag": "UPROPERTY, USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Varying",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DetailsOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "TitleColor",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "MenuDescSuffix",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ExecuteContext",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Visible",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ArraySize",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "IgnoreClassThumbnail",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Variadic",
+            "tag": "UFUNCTION",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DisallowCreateNew",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "CustomWidget",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ExpandByDefault",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AllowSourceAccess",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ExecuteContextType",
+            "tag": "USTRUCT",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ShowVariableNameInTitle",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AnimationInput",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AllowUObjects",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DefaultArraySize",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Layer",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "Private",
+            "tag": "UCLASS",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AdjustPipelineAndRefreshDetailOnChange",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "AlwaysResetToDefault",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "StandAlonePipelineProperty",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "DataflowFlesh",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DataflowIntrinsic",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DataflowPassthrough",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DataflowGeometryCollection",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DataflowTerminal",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DataflowOverride",
+            "tag": "USTRUCT",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "PropertyDeprecated",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "PakOrder",
+            "tag": "UFUNCTION",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "NotInputConfigurable",
+            "tag": "UCLASS",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "Categories",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "FixedLayout",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AllowAnyBinding",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "Optional",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AllowAnyActor",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "UseComponentPicker",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ChaosClothShortName",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisplayInScalabilityValuesBar",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DisplayInSystemScalability",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "ScalabilityBarDisplayName",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "DisplayClassDisplayName",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "NiagaraNoMerge",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DisplayInScalabilityContext",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "SkipSystemResetOnChange",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "SkipForCompileHash",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "NiagaraInternalType",
+            "tag": "USTRUCT",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "NiagaraClearEachFrame",
+            "tag": "USTRUCT",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "CompileHashObjectPath",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "ForceShowPluginContent",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "AnimNotifyBoneName",
+            "tag": "UPROPERTY",
+            "valueType": "Bool"
+        },
+        {
+            "metadataName": "BaseClass",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "BaseStruct",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ExcludeFromHash",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "DirectStatesOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "SubtreesOnly",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "TakeRecorderDisplayName",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "PrioritizeCategories",
+            "tag": "UCLASS",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "InvalidEnumValues",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "SpeedTreeVersion",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        },
+        {
+            "metadataName": "ExcludeBaseStruct",
+            "tag": "UPROPERTY",
+            "valueType": "Flag"
+        },
+        {
+            "metadataName": "AllowedTypes",
+            "tag": "UPROPERTY",
+            "valueType": "String"
+        }
+    ]
+}
