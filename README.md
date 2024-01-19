@@ -12,7 +12,7 @@ After installing the plugin, enable the plugin only for the `Editor` target in y
 {
     "Plugins": [
         {
-            "Name": "MyCustomExporterPlugin",
+            "Name": "SpecifierReferenceViewer",
             "Enabled": true,
             "TargetAllowList": [
                 "Editor"
