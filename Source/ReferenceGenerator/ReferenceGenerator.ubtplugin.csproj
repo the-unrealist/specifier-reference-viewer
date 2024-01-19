@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <EngineDir Condition="'$(EngineDir)' == ''">X:\Program Files\Epic Games\UE_5.3\Engine</EngineDir>
+    <EngineDir Condition="'$(EngineDir)' == ''">C:\Program Files\Epic Games\UE_5.3\Engine</EngineDir>
     <GeneratorName>ReferenceGenerator</GeneratorName>
     <RootNamespace>Citrus.Plugins.SpecifierReferenceViewer.ReferenceGenerator</RootNamespace>
   </PropertyGroup>
