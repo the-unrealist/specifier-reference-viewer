@@ -6,6 +6,22 @@ For your convenience, I've included the generated output in this repo as [`speci
 At this time, it only exports to a JSON file. At some point in the future, I plan to integrate the result into the Unreal Editor in various ways.
 
 -----
+After installing the plugin, enable the plugin only for the `Editor` target in your `.uproject`.
+
+```json
+{
+    "Plugins": [
+        {
+            "Name": "MyCustomExporterPlugin",
+            "Enabled": true,
+            "TargetAllowList": [
+                "Editor"
+            ]
+        }
+    ]
+}
+```
+-----
 
 This exporter performs two separate tasks:
 1. Finds all non-metadata specifiers by using reflection against the UHT.
